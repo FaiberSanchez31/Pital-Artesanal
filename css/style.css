@@ -3329,11 +3329,11 @@ hr {
 }
 
 .button-default-outline.button-wapasha::after, .button-default-outline.button-wapasha:focus::after {
-	border-color: #6689ff;
+	border-color: #ae805d;
 }
 
 .button-default-outline.button-wapasha:hover, .button-default-outline.button-wapasha:active {
-	color: #6689ff;
+	color: #ae805d;
 	background: transparent;
 }
 
@@ -6345,7 +6345,7 @@ textarea.textarea-lg {
 }
 
 .thumbnail-classic-title {
-	color: #6689ff;
+	color: #7c512e;
 }
 
 .thumbnail-classic-title a, .thumbnail-classic-title a:focus, .thumbnail-classic-title a:active {
@@ -6353,7 +6353,7 @@ textarea.textarea-lg {
 }
 
 .thumbnail-classic-title a:hover {
-	color: rgba(102, 137, 255, 0.5);
+	color: #ab886a
 }
 
 .thumbnail-classic-text {
@@ -15336,7 +15336,7 @@ html.rd-navbar-fixed-linked .page-header {
 .swiper-slider-classic .swiper-pagination-bullet::after {
 	transform: translateX(-100%);
 	animation: pagOutX .3s;
-	background: #6689ff;
+	background: #ae805d;
 }
 
 .swiper-slider-classic .swiper-pagination-bullet:hover, .swiper-slider-classic .swiper-pagination-bullet.swiper-pagination-bullet-active {
@@ -16454,7 +16454,7 @@ h3 + .isotope-filters {
 		color: #6689ff;
 	}
 	.isotope-filters-list a.active {
-		color: #6689ff;
+		color: #7c512e;
 		background: transparent;
 	}
 	.isotope-filters-list-2 a, .isotope-filters-list-2 a:focus, .isotope-filters-list-2 a:active {
