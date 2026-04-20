@@ -1450,3 +1450,32 @@
 
 	} );
 }());
+
+// Script para el funcionamiento del hover en moviles
+document.addEventListener("DOMContentLoaded", function () {
+		const items = document.querySelectorAll(".thumbnail-classic");
+
+		items.forEach(item => {
+			item.addEventListener("click", function (e) {
+
+				// Evitar conflicto con links (zoom imagen)
+				if (e.target.closest("a")) return;
+
+				// Toggle: si ya está abierto, lo cierra
+				const isActive = this.classList.contains("active");
+
+				items.forEach(el => el.classList.remove("active"));
+
+				if (!isActive) {
+					this.classList.add("active");
+				}
+			});
+		});
+
+		// Click fuera = cerrar todo
+		document.addEventListener("click", function (e) {
+			if (!e.target.closest(".thumbnail-classic")) {
+				items.forEach(el => el.classList.remove("active"));
+			}
+		});
+	});
