@@ -631,6 +631,16 @@
 		 * @param {object} itemsToInit - jQuery object
 		 * @param {string} [addClass] - additional gallery class
 		 */
+		$(document).ready(function() {
+			// Buscamos tu botón por su atributo
+			var videoButton = $("[data-lightgallery='item']");
+
+			if (videoButton.length) {
+				// Usamos la función nativa de tu plantilla que ya configuraste
+				initLightGalleryItem(videoButton);
+			}
+		});
+
 		function initLightGallery ( itemsToInit, addClass ) {
 			if ( !isNoviBuilder ) {
 				$( itemsToInit ).lightGallery( {
