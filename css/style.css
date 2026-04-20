@@ -1119,7 +1119,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-pricing-black {
 	color: #ffffff;
-	background: #1b1929;
+	background: #ab886a;
 }
 
 .box-pricing-black .box-pricing-time,
@@ -1145,13 +1145,13 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .box-pricing-black .box-pricing-list > li.active::before {
-	color: #6689ff;
+	color: #7c512e;
 }
 
 .box-pricing-black .button-gray-4, .box-pricing-black .button-gray-4:focus {
 	color: #ffffff;
-	background-color: #494c51;
-	border-color: #494c51;
+	background-color: #7c512e;
+	border-color: #7c512e;
 }
 
 .box-pricing-divider {
@@ -1255,7 +1255,7 @@ a[href*='tel'], a[href*='mailto'] {
 	text-transform: uppercase;
 	font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	color: #ffffff;
-	background: #6689ff;
+	background: #7c512e;
 	border-radius: 4px;
 }
 
@@ -2929,8 +2929,8 @@ hr {
 
 .button-gray-4:hover, .button-gray-4:active {
 	color: #ffffff;
-	background-color: #151515;
-	border-color: #151515;
+	background-color: #ae805d;
+	border-color: #ae805d;
 }
 
 .button-gray-4.button-ujarak::before {

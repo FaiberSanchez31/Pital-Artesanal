@@ -1,201 +1,10 @@
-<!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
-  <head>
-    <title>El Pital Artesanal</title>
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="utf-8">
-    <link rel="icon" href="images/screen.png" type="image/x-icon">
-    <!-- Stylesheets-->
-    
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
-  </head>
-  <body>
-    <div class="page">
-      <div id="home">
-        <!-- Page Header-->
-        <header class="section page-header">
-          <!-- RD Navbar-->
-          <div class="rd-navbar-wrap">
-            <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
-              <div class="rd-navbar-main-outer">
-                <div class="rd-navbar-main">
-                  <!-- RD Navbar Panel-->
-                  <div class="rd-navbar-panel">
-                    <!-- RD Navbar Toggle-->
-                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                    <!-- RD Navbar Brand-->
-                    <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="images/logo-default-223x50.png" alt="" width="223" height="50"/></a></div>
-                  </div>
-                  <div class="rd-navbar-main-element">
-                    <div class="rd-navbar-nav-wrap">
-                      <!-- RD Navbar Share-->
-                      <div class="rd-navbar-share fl-bigmug-line-share27" data-rd-navbar-toggle=".rd-navbar-share-list">
-                        <ul class="list-inline rd-navbar-share-list">
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-facebook" href="#"></a></li>
-                          <!-- <li class="rd-navbar-share-list-item"><a class="icon fa fa-twitter" href="#"></a></li> -->
-                          <li class="rd-navbar-share-list-item"><a class="icon fa fa-google-plus" href="#"></a></li>
-                          <!-- <li class="rd-navbar-share-list-item"><a class="icon fa fa-instagram" href="#"></a></li> -->
-                        </ul>
-                      </div>
-                      <ul class="rd-navbar-nav">
-                        <li class="rd-nav-item active"><a class="rd-nav-link" href="#home">Inicio</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#nosotros">Nosotros</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#services">Servicios</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#projects">Productos</a></li>
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="#contacts">Contactos</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </nav>
-          </div>
-        </header>
-
-        <!-- Swiper-->
-        <section class="section swiper-container swiper-slider swiper-slider-classic" data-loop="true" data-autoplay="4859" data-simulate-touch="true" data-direction="vertical" data-nav="false">
-          <div class="swiper-wrapper text-center">
-            <div class="swiper-slide" data-slide-bg="images/banner4.png">
-              <div class="swiper-slide-caption section-md">
-                <div class="container">
-                  <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">EL PITAL ARTESANAL</h1>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide" data-slide-bg="images/banner5.png">
-              <div class="swiper-slide-caption section-md">
-                <div class="container">
-                  <h1 data-caption-animate="fadeInLeft" data-caption-delay="0">EL PITAL ARTESANAL</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Swiper Pagination-->
-          <div class="swiper-pagination__module">
-            <div class="swiper-pagination__fraction"><span class="swiper-pagination__fraction-index">00</span><span class="swiper-pagination__fraction-divider">/</span><span class="swiper-pagination__fraction-count">00</span></div>
-            <div class="swiper-pagination__divider"></div>
-            <div class="swiper-pagination"></div>
-          </div>
-        </section>
-      </div>
-
-      <!-- You dream — we embody-->
-      <section class="section section-sm bg-default text-md-left" id="nosotros">
-        <div class="container">
-          <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-            <div class="col-lg-6 col-xl-5 wow fadeInLeft">
-              <h2>SOBRE NOSOTROS</h2>
-              <!-- Bootstrap tabs-->
-              <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6">
-                <!-- Nav tabs-->
-                <ul class="nav nav-tabs">
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active" href="#tabs-6-1" data-toggle="tab">01</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2" data-toggle="tab">02</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3" data-toggle="tab">03</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">04</a></li>
-                </ul>
-                <!-- Tab panes-->
-                <div class="tab-content">
-                  <div class="tab-pane fade show active" id="tabs-6-1">
-                    <h5 class="font-weight-normal">RAÍCES QUE INSPIRAN</h5>
-                    <p>En El Pital Artesanal preservamos la esencia de nuestras raíces a través de cada pieza que creamos. Somos un emprendimiento dedicado a la elaboración de artesanías hechas a mano, inspiradas en la riqueza cultural de nuestra región. Cada producto refleja historia, tradición y el talento de manos artesanas comprometidas con mantener vivo nuestro legado.</p>
-                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Contactar</a><a class="button button-default-outline button-wapasha" href="#projects">Conocer Más</a></div>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-2">
-                    <h5 class="font-weight-normal">HECHO CON EL CORAZÓN</h5>
-                    <p>En El Pital Artesanal creemos que cada artesanía cuenta una historia. Nacimos con el propósito de compartir el amor por lo hecho a mano, creando piezas únicas llenas de dedicación y pasión. Más que productos, ofrecemos detalles con alma, ideales para quienes valoran lo auténtico y lo hecho con el corazón.</p>
-                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Contactar</a><a class="button button-default-outline button-wapasha" href="#projects">Conocer Más</a></div>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-3">
-                    <h5 class="font-weight-normal">TRADICIÓN CON ESTILO</h5>
-                    <p>El Pital Artesanal es un emprendimiento que fusiona tradición y diseño contemporáneo para ofrecer artesanías únicas y de alta calidad. Nos especializamos en productos elaborados manualmente, cuidando cada detalle para brindar piezas exclusivas que destacan por su autenticidad y estilo.</p>
-                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Contactar</a><a class="button button-default-outline button-wapasha" href="#projects">Conocer Más</a></div>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-4">
-                    <h5 class="font-weight-normal">ARTESANIA CON PROPOSITO</h5>
-                    <p>En El Pital Artesanal trabajamos para impulsar el talento local y promover el valor de las artesanías como patrimonio cultural. Nuestro compromiso es crear productos sostenibles, apoyando el trabajo artesanal y contribuyendo al desarrollo de nuestra comunidad. Cada pieza representa esfuerzo, identidad y respeto por nuestras tradiciones.</p>
-                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Contactar</a><a class="button button-default-outline button-wapasha" href="#projects">Conocer Más</a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay=".1s">
-              <div class="owl-carousel owl-style-1" data-items="2" data-stage-padding="0" data-loop="true" data-margin="0" data-mouse-drag="true" data-autoplay="true">
-                <a class="box-device" href="#"><img src="images/intro1.png" alt="" width="313" height="580"/></a>
-                <a class="box-device" href="#"><img src="images/intro2.png" alt="" width="313" height="580"/></a>
-                <a class="box-device" href="#"><img src="images/intro3.png" alt="" width="313" height="580"/></a>
-                <a class="box-device" href="#"><img src="images/intro4.png" alt="" width="313" height="580"/></a></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- See all services-->
-      <section class="section section-sm section-first bg-default text-center" id="services">
-        <div class="container">
-          <div class="row row-30 justify-content-center">
-            <div class="col-md-7 col-lg-5 col-xl-6 text-lg-left wow fadeInUp"><img src="images/nosotros.png" alt="" width="415" height="592"/>
-            </div>
-            <div class="col-lg-7 col-xl-6">
-              <div class="row row-30">
-                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
-                  <article class="box-icon-modern box-icon-modern-2">
-                    <div class="box-icon-modern-icon">
-                      <img src="images/logo-artesanias.png" style="width: 50px; height: auto;">
-                    </div>
-                    <h5 class="box-icon-modern-title"><div>Elaboración de Artesanías Personalizadas</div></h5>
-                    <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Creamos piezas únicas adaptadas a tus gustos, ideales para regalos especiales o detalles con identidad propia.</p>
-                  </article>
-                </div>
-                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".1s">
-                  <article class="box-icon-modern box-icon-modern-2">
-                    <div class="box-icon-modern-icon">
-                      <img src="images/logo-artesanias.png" style="width: 50px; height: auto;">
-                    </div>
-                    <h5 class="box-icon-modern-title"><div>Venta de Productos Artesanales</div></h5>
-                    <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Ofrecemos una variedad de artesanías hechas a mano, listas para decorar, regalar o disfrutar en tu día a día.</p>
-                  </article>
-                </div>
-                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".2s">
-                  <article class="box-icon-modern box-icon-modern-2">
-                    <div class="box-icon-modern-icon">
-                      <img src="images/logo-artesanias.png" style="width: 50px; height: auto;">
-                    </div>
-                    <h5 class="box-icon-modern-title"><div>Diseños por Encargo</div></h5>
-                    <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Desarrollamos productos exclusivos según tus ideas o necesidades, cuidando cada detalle del proceso creativo.</p>
-                  </article>
-                </div>
-                <div class="col-sm-6 wow fadeInRight" data-wow-delay=".3s">
-                  <article class="box-icon-modern box-icon-modern-2">
-                    <div class="box-icon-modern-icon">
-                      <img src="images/logo-artesanias.png" style="width: 50px; height: auto;">
-                    </div>
-                    <h5 class="box-icon-modern-title"><div>Detalles y Regalos Especiales</div></h5>
-                    <div class="box-icon-modern-decor"></div>
-                    <p class="box-icon-modern-text">Encuentra el regalo perfecto para cualquier ocasión, con artesanías únicas que transmiten calidez, tradición y significado.</p>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- Nuestros Productos Artesanales-->
       <section class="section section-sm section-fluid bg-default text-center" id="projects">
         <div class="container-fluid">
           <h2 class="wow fadeInLeft">Nuestros Productos Artesanales</h2>
           <p class="quote-jean wow fadeInRight" data-wow-delay=".1s">Descubre nuestras artesanías hechas a mano, con variedad de diseños y opciones personalizadas, ideales para decoración, regalos y uso diario.</p>
           <div class="isotope-filters isotope-filters-horizontal">
-            <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true" data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Categorias</button>
+            <button class="isotope-filters-toggle button button-md button-icon button-icon-right button-default-outline button-wapasha" data-custom-toggle="#isotope-3" data-custom-toggle-hide-on-blur="true" data-custom-toggle-disable-on-blur="true"><span class="icon fa fa-caret-down"></span>Categorías</button>
             <ul class="isotope-filters-list" id="isotope-3">
               <li><a href="#" data-isotope-filter="Type 1" data-isotope-group="gallery">Decoración Artesanal</a></li>
               <li><a href="#" data-isotope-filter="Type 2" data-isotope-group="gallery">Souvenirs y Recordatorios</a></li>
@@ -217,9 +26,8 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/71.png" data-lightgallery="item"><img src="images/galeria/71.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Elfo decorativo (20 cm)</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en madera, hilo yute, porcelana fría y elementos naturales, brindando un estilo artesanal elegante.</p>
-                  <p class="thumbnail-classic-text">Altura: 20 cm</p>
-                  <p class="thumbnail-classic-text">Precio: $50.000 unidad</p>
+                  <p class="thumbnail-classic-text">Elaborado en madera, yute, porcelanicron y elementos naturales.</p>
+                  <p class="thumbnail-classic-text">Precio: $50.000</p>
                 </div>
               </article>
             </div>
@@ -232,8 +40,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/73.png" data-lightgallery="item"><img src="images/galeria/73.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Elfo decorativo (30 cm)</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en porcelana fría, tela, hilo yute, corteza natural y peluche, con acabado artesanal detallado.</p>
-                  <p class="thumbnail-classic-text">Altura: 30 cm</p>
+                  <p class="thumbnail-classic-text">Elaborado en porcelanicron, tela, yute y peluche.</p>
                   <p class="thumbnail-classic-text">Precio: $70.000</p>
                 </div>
               </article>
@@ -247,7 +54,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/72.png" data-lightgallery="item"><img src="images/galeria/72.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Elfo decorativo con base en madera</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en porcelana fría, hilo yute y telas de colores, sobre base de madera natural.</p>
+                  <p class="thumbnail-classic-text">Elaborado en porcelanicron, yute y tela.</p>
                   <p class="thumbnail-classic-text">Precio: $70.000</p>
                 </div>
               </article>
@@ -261,8 +68,8 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/69.png" data-lightgallery="item"><img src="images/galeria/69.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Elfo decorativo con tronco de café</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en  hilo yute, porcelana fría, tela y peluche, sobre base de madera con tronco de café.</p>
-                  <p class="thumbnail-classic-text">Altura: 30 cm</p>
+                  <p class="thumbnail-classic-text">Incluye base en madera y elementos naturales.</p>
+                  <p class="thumbnail-classic-text">Altura: 30 cm.</p>
                   <p class="thumbnail-classic-text">Precio: $80.000</p>
                 </div>
               </article>
@@ -276,8 +83,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/70.png" data-lightgallery="item"><img src="images/galeria/70.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Elfo decorativo con flores</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en porcelana fría, hilo yute y tela, sobre base de madera con detalles florales.</p>
-                  <p class="thumbnail-classic-text">Altura: 30 cm</p>
+                  <p class="thumbnail-classic-text">Elaborado en porcelanicron y yute sobre base de madera.</p>
                   <p class="thumbnail-classic-text">Precio: $70.000</p>
                 </div>
               </article>
@@ -291,7 +97,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/68.png" data-lightgallery="item"><img src="images/galeria/68.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Elfo decorativo femenino</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado con telas floreadas, hilo yute y porcelana fría, sobre base de madera decorada con flores.</p>
+                  <p class="thumbnail-classic-text">Con telas floreadas y base en madera, decorado con flores.</p>
                   <p class="thumbnail-classic-text">Precio: $80.000</p>
                 </div>
               </article>
@@ -305,8 +111,8 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/31.png" data-lightgallery="item"><img src="images/galeria/31.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Figura decorativa en arcilla (modelo 1)</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Con estructura metálica, ideal para decoración.</p>
-                  <p class="thumbnail-classic-text">Medidas: 17 cm x 13 cm</p>
+                  <p class="thumbnail-classic-text">Con estructura metálica.</p>
+                  <p class="thumbnail-classic-text">Medidas: 17 cm x 13 cm.</p>
                   <p class="thumbnail-classic-text">Precio: $30.000</p>
                 </div>
               </article>
@@ -320,8 +126,8 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/32.png" data-lightgallery="item"><img src="images/galeria/32.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Figura decorativa en arcilla (modelo 2)</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Con estructura metálica, ideal para decoración.</p>
-                  <p class="thumbnail-classic-text">Medidas: 17 cm x 13 cm</p>
+                  <p class="thumbnail-classic-text">Con estructura metálica.</p>
+                  <p class="thumbnail-classic-text">Medidas: 17 cm x 13 cm.</p>
                   <p class="thumbnail-classic-text">Precio: $30.000</p>
                 </div>
               </article>
@@ -419,7 +225,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/8.png" data-lightgallery="item"><img src="images/galeria/8.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Carreta decorativa</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en bejuco con base en madera.</p>
+                  <p class="thumbnail-classic-text">En bejuco con base en madera.</p>
                   <p class="thumbnail-classic-text">Precio: $25.000</p>
                 </div>
               </article>
@@ -461,7 +267,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/2.png" data-lightgallery="item"><img src="images/galeria/2.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Figura sanjuanero con tamales</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en porcelana fría sobre base en madera.</p>
+                  <p class="thumbnail-classic-text">En porcelana fría sobre base en madera.</p>
                   <p class="thumbnail-classic-text">Precio: $25.000</p>
                 </div>
               </article>
@@ -503,7 +309,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/30.png" data-lightgallery="item"><img src="images/galeria/30.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Coco de café decorativo</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en bejuco con detalles en porcelana fría.</p>
+                  <p class="thumbnail-classic-text">En bejuco con detalles en porcelana fría.</p>
                   <p class="thumbnail-classic-text">Precio: $25.000</p>
                 </div>
               </article>
@@ -559,8 +365,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/24.png" data-lightgallery="item"><img src="images/galeria/24.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Souvenir para colgar</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en cabuya y madera, ideal para decoración turística.</p>
-                  <p class="thumbnail-classic-text">Medidas: 10 cm de alta por 8 de ancha.</p>
+                  <p class="thumbnail-classic-text">En cabuya y madera, ideal para decoración turística.</p>
                   <p class="thumbnail-classic-text">Precio: $6.000</p>
                 </div>
               </article>
@@ -575,7 +380,7 @@
                     <h5 class="thumbnail-classic-title"><a href="#">Recordatorio sanjuanero</a></h5>
                   </div>
                   <p class="thumbnail-classic-text">Decoración con café y base en madera.</p>
-                  <p class="thumbnail-classic-text">Precio: $20.000</p>
+                  <p class="thumbnail-classic-text">$20.000</p>
                 </div>
               </article>
             </div>
@@ -602,7 +407,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/78.png" data-lightgallery="item"><img src="images/galeria/78.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Imanes en arcilla</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Tamaño aproximado de 4–5 cm</p>
+                  <p class="thumbnail-classic-text">Tamaño aproximado de 4–5 cm.</p>
                   <p class="thumbnail-classic-text">Precio: $5.000</p>
                 </div>
               </article>
@@ -700,7 +505,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/74.png" data-lightgallery="item"><img src="images/galeria/74.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Juego de centro de mesa (6 puestos)</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en hilo yute pintado a mano, con apliques tejidos decorativos. Ideal para mesa de comedor.</p>
+                  <p class="thumbnail-classic-text">Elaborado en yute pintado a mano, con apliques tejidos.</p>
                   <p class="thumbnail-classic-text">Precio: $90.000</p>
                 </div>
               </article>
@@ -714,7 +519,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/40.png" data-lightgallery="item"><img src="images/galeria/40.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Juego de cocina</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Incluye forro para licuadora, organizador de recetas y dos cogederos. Personalizable en colores.</p>
+                  <p class="thumbnail-classic-text">Incluye forro para licuadora, organizador de recetas y dos cogederos.</p>
                   <p class="thumbnail-classic-text">Precio: $45.000</p>
                 </div>
               </article>
@@ -729,7 +534,7 @@
                     <h5 class="thumbnail-classic-title"><a href="#">Conjunto de limpión y cogedero</a></h5>
                   </div>
                   <p class="thumbnail-classic-text">Elaborado en tela toalla estampada.</p>
-                  <p class="thumbnail-classic-text">Medidas: limpión 50 cm, cogedero 18 cm</p>
+                  <p class="thumbnail-classic-text">Medidas: limpión 50 cm, cogedero 18 cm.</p>
                   <p class="thumbnail-classic-text">Precio: $15.000</p>
                 </div>
               </article>
@@ -743,7 +548,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/34.png" data-lightgallery="item"><img src="images/galeria/34.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Guantes de cocina</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborados en tela toalla con forro interno y relleno de guata.</p>
+                  <p class="thumbnail-classic-text">En tela toalla con forro interno y relleno de guata.</p>
                   <p class="thumbnail-classic-text">Disponibles en versión corta y larga (hasta el codo).</p>
                   <p class="thumbnail-classic-text">Precio:</p>
                   <p class="thumbnail-classic-text">Cortos: $20.000</p>
@@ -787,7 +592,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/36.png" data-lightgallery="item"><img src="images/galeria/36.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Vinajera en forma de guitarra</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborada en madera con 4 recipientes en bambú, decorados en porcelana fría.</p>
+                  <p class="thumbnail-classic-text">Base en madera con 4 vasitos en bambú decorados en porcelana fría.</p>
                   <p class="thumbnail-classic-text">Precio: $55.000</p>
                 </div>
               </article>
@@ -815,7 +620,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/41.png" data-lightgallery="item"><img src="images/galeria/41.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Juegos de baño / lencería</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaboración de lencería para hogar, cocina o baño en telas y colores personalizados.</p>
+                  <p class="thumbnail-classic-text">Personalizados según diseño.</p>
                   <p class="thumbnail-classic-text">Precio: desde $40.000</p>
                 </div>
               </article>
@@ -829,8 +634,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/33.png" data-lightgallery="item"><img src="images/galeria/33.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Utilitario organizador</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en tela, personalizable en tamaño y colores.</p>
-                  <p class="thumbnail-classic-text">Medidas: 20 x 25 cm</p>
+                  <p class="thumbnail-classic-text">Medidas estándar 20 x 25 cm (ajustable).</p>
                   <p class="thumbnail-classic-text">Precio: $40.000</p>
                 </div>
               </article>
@@ -872,7 +676,6 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/45.png" data-lightgallery="item"><img src="images/galeria/45.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Cesta ovalada pequeña</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborada en calceta de plátano, decorada con flores en porcelana fría y aplique personalizado.</p>
                   <p class="thumbnail-classic-text">Precio: $13.000</p>
                 </div>
               </article>
@@ -884,9 +687,8 @@
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/44.png" data-lightgallery="item"><img src="images/galeria/44.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Cesta rectangular pequeña</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Cesta cuadrada</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborada en calceta de plátano, ideal para detalles o decoración.</p>
                   <p class="thumbnail-classic-text">Precio: $13.000</p>
                 </div>
               </article>
@@ -898,9 +700,8 @@
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/42.png" data-lightgallery="item"><img src="images/galeria/42.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Cesta pequeña decorada</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Cesta con decoración</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborada en calceta de plátano, con flores y hojas en porcelana fría y aplique decorativo.</p>
                   <p class="thumbnail-classic-text">Precio: $10.000</p>
                 </div>
               </article>
@@ -912,9 +713,8 @@
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/43.png" data-lightgallery="item"><img src="images/galeria/43.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Cestico mini decorativo</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Cestico pequeño</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en calceta de plátano con flores en porcelana fría y aplique personalizado.</p>
                   <p class="thumbnail-classic-text">Precio: $8.000</p>
                 </div>
               </article>
@@ -928,7 +728,6 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/39.png" data-lightgallery="item"><img src="images/galeria/39.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Canasto con manija</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en calceta de plátano, práctico y decorativo.</p>
                   <p class="thumbnail-classic-text">Precio: $30.000</p>
                 </div>
               </article>
@@ -992,10 +791,9 @@
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/25.png" data-lightgallery="item"><img src="images/galeria/25.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Conjunto de aretes y gargantilla</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Set de aretes y gargantilla</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborado en bejuco con diseño de sombrero.</p>
-                  <p class="thumbnail-classic-text">Diámetro: 4 cm</p>
+                  <p class="thumbnail-classic-text">Elaborados en bejuco con diseño de sombrero.</p>
                   <p class="thumbnail-classic-text">Precio: $30.000</p>
                 </div>
               </article>
@@ -1191,9 +989,9 @@
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/35.png" data-lightgallery="item"><img src="images/galeria/35.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Tula aguardientera en liencillo</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Tula aguardientera</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Elaborada en tela, personalizable con imágenes o logos.</p>
+                  <p class="thumbnail-classic-text">Elaborada en tela</p>
                   <p class="thumbnail-classic-text">Precio: $20.000</p>
                 </div>
               </article>
@@ -1205,9 +1003,9 @@
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/37.png" data-lightgallery="item"><img src="images/galeria/37.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Tula aguardientera en hilo yute</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Tula aguardientera</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Personalizable según diseño.</p>
+                  <p class="thumbnail-classic-text">Elaborada en yute.</p>
                   <p class="thumbnail-classic-text">Precio: $20.000</p>
                 </div>
               </article>
@@ -1249,7 +1047,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/59.png" data-lightgallery="item"><img src="images/galeria/59.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Oso Winnie Pooh</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Tejido a mano en hilo macramé, de aproximadamente 9 cm, con un diseño tierno y resistente gracias a su hilo más grueso. Ideal como llavero o detalle especial.</p>
+                  <p class="thumbnail-classic-text">Osito tejido a mano en hilo macramé, de aproximadamente 9 cm, con un diseño tierno y resistente gracias a su hilo más grueso. Ideal como llavero o detalle especial.</p>
                   <p class="thumbnail-classic-text">Precio: $20.000</p>
                 </div>
               </article>
@@ -1263,7 +1061,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/60.png" data-lightgallery="item"><img src="images/galeria/60.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Virgencitas</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Tejidas a mano en técnica crochet. Cada pieza mide aproximadamente 9 cm y está elaborada con hilo crochet, Su diseño incluye un hermoso toque dorado en la vestimenta que resalta su estilo tierno y especial.</p>
+                  <p class="thumbnail-classic-text">Virgencitas tejidas a mano en técnica crochet. Cada pieza mide aproximadamente 9 cm y está elaborada con hilo crochet, Su diseño incluye un hermoso toque dorado en la vestimenta que resalta su estilo tierno y especial.</p>
                   <p class="thumbnail-classic-text">Precio: $30.000</p>
                 </div>
               </article>
@@ -1317,9 +1115,9 @@
                 </div>
                 <div class="thumbnail-classic-caption">
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/61.png" data-lightgallery="item"><img src="images/galeria/61.png" alt="" width="420" height="350"/></a>
-                    <h5 class="thumbnail-classic-title"><a href="#">Amigurumi Pokémon</a></h5>
+                    <h5 class="thumbnail-classic-title"><a href="#">Amigurumi</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Tejido a mano en hilo crochet, de aproximadamente 13 cm, con acabados detallados y diseño único.</p>
+                  <p class="thumbnail-classic-text">Figura tejida a mano en hilo crochet, de aproximadamente 13 cm, con acabados detallados y diseño único.</p>
                   <p class="thumbnail-classic-text">Precio: $70.000</p>
                 </div>
               </article>
@@ -1333,7 +1131,7 @@
                   <div class="thumbnail-classic-title-wrap"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/79.png" data-lightgallery="item"><img src="images/galeria/79.png" alt="" width="420" height="350"/></a>
                     <h5 class="thumbnail-classic-title"><a href="#">Amigurumi de apego y sonajero</a></h5>
                   </div>
-                  <p class="thumbnail-classic-text">Tejido a mano en crochet, elaborado con lana copito o lana sylky, suave y perfecto para acompañar.</p>
+                  <p class="thumbnail-classic-text">Tejido a mano en crochet, Elaborado con lana copito o lana sylky, suave y perfecto para acompañar.</p>
                   <p class="thumbnail-classic-text">Precio: $80.000</p>
                 </div>
               </article>
@@ -1355,145 +1153,3 @@
           </div>
         </div>
       </section>
-
-      <!-- Pricing-->
-      <section class="section section-sm section-bottom-70 section-fluid bg-default">
-        <div class="container">
-          <h2>Te ofrecemos</h2>
-          <div class="row row-30 justify-content-center">
-            <div class="col-md-6 col-lg-5 col-xl-4">
-              <div class="box-pricing box-pricing-black">
-                <div class="box-pricing-body">
-                  <h5 class="box-pricing-title">Artesanías Listas</h5>
-                  <div class="box-pricing-time">Productos ya elaborados, listos para compra inmediata.</div>
-                  <div class="box-pricing-divider">
-                    <div class="divider"></div><span>Basico</span>
-                  </div>
-                  <ul class="box-pricing-list">
-                    <li class="active">Piezas únicas hechas a mano</li>
-                    <li class="active">Entrega inmediata o rápida</li>
-                    <li class="active">Variedad de estilos disponibles</li>
-                    <li class="active">Precios accesibles</li>
-                    <li class="active">Ideal para regalos rápidos o uso personal</li>
-                  </ul>
-                </div>
-                <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="#">Contactar</a></div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-5 col-xl-4">
-              <div class="box-pricing box-pricing-black box-pricing-popular">
-                <div class="box-pricing-body">
-                  <h5 class="box-pricing-title">Diseños Personalizados</h5>
-                  <div class="box-pricing-time">Artesanías creadas según tus gustos y necesidades.</div>
-                  <div class="box-pricing-divider">
-                    <div class="divider"></div><span>Premium</span>
-                  </div>
-                  <ul class="box-pricing-list">
-                    <li class="active">Elección de materiales a su gusto</li>
-                    <li class="active">Diseño 100% personalizado</li>
-                    <li class="active">Asesoría personalizada y amigable</li>
-                    <li class="active">Producto exclusivo e irrepetible</li>
-                    <li class="active">Ideal para ocasiones especiales</li>
-                  </ul>
-                </div>
-                <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="#">Contactar</a></div>
-                <div class="box-pricing-badge">popular</div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-5 col-xl-4">
-              <div class="box-pricing box-pricing-black">
-                <div class="box-pricing-body">
-                  <h5 class="box-pricing-title">Detalles Especiales</h5>
-                  <div class="box-pricing-time">Experiencia completa para regalar o sorprender.</div>
-                  <div class="box-pricing-divider">
-                    <div class="divider"></div><span>Optimo</span>
-                  </div>
-                  <ul class="box-pricing-list">
-                    <li class="active">Kits de productos combinados</li>
-                    <li class="active">Presentación elegante para regalo</li>
-                    <li class="active">Personalización básica incluida</li>
-                    <li class="active">Enfoque en acabados de calidad</li>
-                    <li class="active">Perfecto para fechas importantes</li>
-                  </ul>
-                </div>
-                <div class="box-pricing-button"><a class="button button-lg button-block button-gray-4" href="#">Contactar</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Contact information-->
-      <section class="section section-sm bg-default" id="contacts">
-        <div class="container">
-          <div class="row row-30 justify-content-center">
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">3132370517</a></p>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-up104"></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><div>Gloria Nubia Parra Gomez</div></p>
-                  <p class="box-contacts-link"><div>Carrera 3 # 7 - 28</div></p>
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="mailto:#">glorianubiapg@gmail.com</a></p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Page Footer-->
-      <footer class="section section-fluid footer-minimal context-dark">
-        <div style="background-color: #ae805d;">
-          <div class="container-fluid">
-            <div class="footer-minimal-bottom-panel text-sm-left">
-              <div class="row row-10 align-items-md-center">
-                <div class="col-sm-6 col-md-4 text-sm-right text-md-center">
-                  <div>
-                    <ul class="list-inline list-inline-sm footer-social-list-2">
-                      <li><a class="icon fa fa-facebook" href="#"></a></li>
-                      <!-- <li><a class="icon fa fa-twitter" href="#"></a></li> -->
-                      <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                      <!-- <li><a class="icon fa fa-instagram" href="#"></a></li> -->
-                    </ul>
-                  </div>
-                </div>
-                <div class="col-sm-6 col-md-4 order-sm-first">
-                  <!-- Rights-->
-                  <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span> <span>El Pital Artesanal</span>
-                  </p>
-                </div>
-                <div class="col-sm-6 col-md-4 text-md-right"><span>Todos los derechos reservados.</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-    </div>
-    <!-- Global Mailform Output-->
-    <div class="snackbars" id="form-output-global"></div>
-    <!-- Javascript-->
-    <script src="js/core.min.js"></script>
-    <script src="js/script.js"></script>
-    <!-- coded by Himic-->
-  </body>
-</html>
